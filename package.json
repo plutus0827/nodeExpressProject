@@ -1,5 +1,5 @@
 {
-  "name": "nodeExpressProject",
+  "name": "The first Jin's Project of NodeJS",
   "version": "1.0.0",
   "description": "This is the first project of node.js express",
   "main": "app.js",
