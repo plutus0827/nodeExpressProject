@@ -1,5 +1,5 @@
 {
-  "name": "The first Jin's Project of NodeJS",
+  "name": "nodeExpressProject",
   "version": "1.0.0",
   "description": "This is the first project of node.js express",
   "main": "app.js",
@@ -10,6 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "express3-handlebars": "^0.5.2"
+    "express3-handlebars": "^0.5.2",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
