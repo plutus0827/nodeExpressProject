@@ -18,7 +18,16 @@ app.get('/about', function(req, res) {
   // res.type('text/plain');
   // res.send('About Meadowlark Travel');
   // var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
-  res.render('about', {fortune:fortune.getFortune()});
+  res.render('about', {fortune:fortune.getFortune(),
+                      pageTestScript: '/qa/tests-about.js'});
+});
+
+app.get('/tours/hood-river', function(req, res){
+  res.render('tours/hood-river');
+});
+
+app.get('/tours/request-group-rate', function(req, res) {
+  res.render('tours/request-group-rate');
 });
 
 app.use(express.static(__dirname + '/public'));
